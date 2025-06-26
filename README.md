@@ -16,15 +16,14 @@ A real-time event check-in application built with React Native (Expo) for the fr
 
 ## 📁 Project Structure
 
-```text
-event-checkin-app/
-├── backend/        # Node.js + GraphQL + Prisma
-├── frontend/       # React Native (Expo)
-└── README.md
-
-
+    ```text
+    event-checkin-app/
+    ├── backend/        # Node.js + GraphQL + Prisma
+    ├── frontend/       # React Native (Expo)
+    └── README.md
 
 ---
+
 
 ## 📦 Installation & Setup Instructions
 
