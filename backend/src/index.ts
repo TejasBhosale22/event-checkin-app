@@ -5,16 +5,16 @@ import cors from 'cors';
 import { schema } from './schema';
 import { createContext } from './context';
 import { setupSocket } from './socket';
-import { generateMockToken } from './auth'; // ✅ ADD THIS
+import { generateMockToken } from './auth'; 
 import 'dotenv/config';
 
 const app = express();
 const server = http.createServer(app);
 
 app.use(cors());
-app.use(express.json()); // ✅ ADD THIS to parse JSON bodies
+app.use(express.json()); 
 
-// ✅ MOCK LOGIN ROUTE
+
 app.post('/mock-login', (req, res) => {
   const { email } = req.body;
   const user =
