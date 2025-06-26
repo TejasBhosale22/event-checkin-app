@@ -21,6 +21,7 @@ event-checkin-app/
 └── README.md
 
 
+
 ---
 
 ## 📦 Installation & Setup Instructions
