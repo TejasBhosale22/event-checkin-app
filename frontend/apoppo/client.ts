@@ -1,4 +1,3 @@
-// apollo/client.ts
 import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { useAuthStore } from '../src/store/useAuthStore';
